@@ -102,7 +102,7 @@ const UserProfile = () => {
                         <h1>Favourite</h1>
                         {tracks.length !== 0 && tracks.map((track) =>
                             // sm={12} md={6} lg={4} xl={3}
-                            (<Col>
+                            (<Col sm={12} md={6} lg={4} xl={3}>
                                 <Card className= {`rounded ${style.img}` }>
                             <div className={ `${style.overlay}` }>
                                 

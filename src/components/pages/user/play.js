@@ -26,7 +26,7 @@ const Play = () => {
                     src={player && player.currentplayer && player.currentplayer.track}
                     ref = {audioRef}            
                                 onError={() =>
-                                    toast.error('This track is not available at the moment.')
+                                    toast.error('Track error please try it again!')
                                 }
                     />
   )
